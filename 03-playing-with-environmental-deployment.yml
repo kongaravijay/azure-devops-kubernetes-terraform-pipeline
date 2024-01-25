@@ -2,10 +2,10 @@ trigger:
 - main
 strategy:
   matrix:
-   linux:
-    operatingSystem: 'ubuntu-latest'
+    linux:
+      operatingSystem: 'ubuntu-latest'
     mac:
-     operatingSystem: 'macos-latest'
+      operatingSystem: 'macos-latest'
 
 pool:
   vmImage: $(operatingSystem)
